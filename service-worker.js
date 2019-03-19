@@ -15,10 +15,9 @@
 var dataCacheName = 'weatherData-v1';
 var cacheName = 'weatherPWA-final-1';
 var filesToCache = [
-  '/',
-  '/index.html',
-  '/scripts/app.js',
-  '/styles/inline.css'
+  'index.html',
+  'scripts/app.js',
+  'styles/inline.css'
 ];
 
 self.addEventListener('install', function(e) {
